@@ -1,0 +1,2 @@
+만약 상품이 없는 상태라면 nextInt(products.size())에서 NoSuchElementException 예외가 발생함.
+nextInt(products.size())를 상품 사이즈 비교하는 조건문 안으로 넣어서 상품이 없을 때 터지는 예외를 방지해야 함.
